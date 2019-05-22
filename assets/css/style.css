@@ -5,38 +5,57 @@
 }
 
 body {
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0;
+    background-image: url(../images/papyrus.png);
 }
 
-header {
-    font-family:'Georgia', Times, Times New Roman, serif;
+a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
 }
 
-#headername {
+footer {
+    background-color: grey;
+    height: 100px;
+    clear: both;
+    padding-bottom: 0;
+}
+
+#headerName {
     color:white;
-    background-color:teal;
+    background-color:#4aaaa5;
     padding: 20px;
-    margin: 10px;
+    margin-left: 211px;
     float: left;
+    font-family:'Georgia', Times, Times New Roman, serif;
 }
 
 #navigation {
-    background-color: blue;
-    color: darkgrey;
+    background-color: white;
     text-decoration: none;
     height: 100px;
-    font-family:'Georgia', Times, Times New Roman, serif;
-
+    font-family:'Georgia', Times, "Times New Roman", serif;
+    border-width: 10px;
 }
 
-/*.navbuttons {
-    font-family:'Georgia', Times, Times New Roman, serif;
-}*/
+#navbuttons {
+    color: rgb(110, 110, 110);
+    margin-right:200px;
+    float: right;
+}
 
-#aboutMe {
+.navlink {
+    padding: 10px;  
+}
+
+#hrAboutMe {
+    color: #666666;
+    border-width: 1px;
+}
+
+#aboutMeSection {
     width: 960px;
-    padding: 10px; 
+    padding: 30px; 
     text-align: center;
     background-color: white;
     clear: both;
@@ -44,11 +63,32 @@ header {
     border: lightgrey;
     border-style:solid;
     border-width: 1px;
-    object-position: 50% 50%;
+    margin-left: 211px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777; 
+}
+
+#aboutMeHeading {
+    font-family:'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
 }
 
 #biophoto {
     float: left;
-    margin: 10px;
+    margin: 10px 15px 10px 0px;
     width: 30%;
+    height: auto;
 }
+
+#hrBottomTeal {
+    margin: 0;
+    border-width: 5px;
+    border-color:rgb(0, 180, 180);
+    clear: both;
+}
+
+/*#bottomTealBlock {
+    background-color: pink;
+    height: 100 px;
+}*/
