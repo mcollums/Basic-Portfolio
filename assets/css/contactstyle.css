@@ -46,6 +46,7 @@ footer {
     font-family:'Georgia', Times, Times New Roman, serif;
 }
 
+/* Navigation block*/
 #navigation {
     text-decoration: none;
     font-family:'Georgia', Times, "Times New Roman", serif;
@@ -56,6 +57,7 @@ footer {
     margin-left: 360px;
 }
 
+/* Links for the navigation block*/
 .navlink {
     padding: 10px;  
 }
@@ -81,6 +83,7 @@ footer {
     font-size: 20pt;
 }
 
+/* Line seperating the heading and the contact form*/
 #hrContact {
     color: #666666;
     border-width: 1px;
@@ -101,7 +104,8 @@ footer {
     text-indent: 3px;
 }
 
-.submitBox {
+/* This is the submit button*/
+.submitButton {
     margin: 0px 0px;
     padding: 10px 0px;
     height: 20px;
@@ -111,6 +115,7 @@ footer {
     text-indent: 3px;
 }
 
+/* This is for the message box*/
 .textareaForm {
     height: 100px;
     outline: none !important;

@@ -32,6 +32,7 @@ footer {
     margin-top: -50px;
 }
 
+/* This is for the static block with my name*/
 #headerName {
     box-sizing: content-box;
     color:white;
@@ -45,6 +46,7 @@ footer {
     font-family:'Georgia', Times, Times New Roman, serif;
 }
 
+/* Navigation block*/
 #navigation {
     text-decoration: none;
     font-family:'Georgia', Times, "Times New Roman", serif;
@@ -55,6 +57,7 @@ footer {
     margin-left: 360px;
 }
 
+/* Links for the navigation block*/
 .navlink {
     padding: 10px;  
 }
@@ -91,7 +94,7 @@ footer {
     flex-wrap: wrap;
 
 }
-
+/* This is the positioning for each block*/
 #hangmanBlock, #rpgBlock, #triviaBlock, 
 #rutgersBlock, #rpsBlock {
     position: relative;
