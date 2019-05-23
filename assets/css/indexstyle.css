@@ -100,7 +100,9 @@ footer {
     clear: both;
 }
 
-/*#bottomTealBlock {
-    background-color: pink;
-    height: 100 px;
-}*/
+#copyright {
+    color: white;
+    opacity: 60%;
+    text-align: center;
+    margin-top: 50px; 
+}

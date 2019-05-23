@@ -79,13 +79,17 @@ footer {
     color: #4aaaa5;
     font-size: 20pt;
 }
-
+ /* */
+/* Line seperating the heading and the blocks*/
 #hrPortfolio {
     color: #666666;
     border-width: 1px;
 }
 
 #portfolioGrid {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 #hangmanBlock, #rpgBlock, #triviaBlock, 
@@ -94,56 +98,27 @@ footer {
     margin: 10px;
 }
 
-/* #hangmanBlock, #rpgBlock #rpsBlock{
-    float: left;
-}
-
-#triviaBlock, #rutgersBlock {
-    float: right;
-} */
-
 .portfolio-images{
-    width: 30%;
+    width: 300px; 
+    height: 300px;
 }
 
+ /* Line seperating the heading and the blocks*/
 .text-block {
     position: absolute;
-    /* box-sizing: content-box;  */
-    /* font-size: 14pt; */
     background-color: #4aaaa5bd;
     color: white;
-    width: 30%;
+    width: 300px;
     bottom: 12px;
-    /* height: 30px; */
 }
 
+ /* Text that is positioned over each image block */
 .image-text {
-    margin-left: 15px;
+    margin-left: 25px;
+    font-size: 20px;
 }
 
-
-/* #text-block-hangman {
-    box-sizing: content-box; 
-    text-align: center;
-    font-size: 14pt;
-    background-color: #4aaaa5bd;
-    color: white;
-    width: 20%;
-    bottom: 3px;
-    height: 30px;
-} */
-
-/* 
-#text-block-rpg {
-    box-sizing: content-box; 
-    text-align: center;
-    font-size: 14pt;
-    background-color: #4aaaa5bd;
-    color: white;
-    width: 20%;
-    bottom: 3px;
-} */
-
+ /* Line right above the footer block*/
 #hrBottomTeal {
     margin: 0;
     border-width: 2px;
@@ -151,7 +126,9 @@ footer {
     clear: both;
 }
 
-/*#bottomTealBlock {
-    background-color: pink;
-    height: 100 px;
-}*/
+#copyright {
+    color: rgba(255, 255, 255, 0.801);
+    text-align: center;
+    opacity: 60%;
+    margin-top: 50px; 
+}
