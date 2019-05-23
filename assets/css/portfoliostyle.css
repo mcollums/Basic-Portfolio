@@ -7,6 +7,7 @@
 body {
     margin: 0;
     background-image: url(../images/papyrus.png);
+    height: 100%;
 }
 
 a {
@@ -27,9 +28,8 @@ footer {
     background-color: grey;
     clear: both;
     padding-bottom: 0;
-    position: absolute; 
-    left: 0 ; right: 0; bottom: 0; 
     height: 100px; 
+    margin-top: -50px;
 }
 
 #headerName {
@@ -59,18 +59,12 @@ footer {
     padding: 10px;  
 }
 
-#hrAboutMe {
-    color: #666666;
-    border-width: 1px;
-}
-
-#aboutMeSection {
+#portfolioSection {
     width: 960px;
     padding: 30px; 
     text-align: center;
     background-color: white;
     clear: both;
-    float:left;
     border: lightgrey;
     border-style:solid;
     border-width: 1px;
@@ -80,18 +74,75 @@ footer {
     color: #777777; 
 }
 
-#aboutMeHeading {
+#portfolioHeading {
     font-family:'Georgia', Times, "Times New Roman", serif;
     color: #4aaaa5;
     font-size: 20pt;
 }
 
-#biophoto {
-    float: left;
-    margin: 10px 15px 10px 0px;
-    width: 30%;
-    height: auto;
+#hrPortfolio {
+    color: #666666;
+    border-width: 1px;
 }
+
+#portfolioGrid {
+}
+
+#hangmanBlock, #rpgBlock, #triviaBlock, 
+#rutgersBlock, #rpsBlock {
+    position: relative;
+    margin: 10px;
+}
+
+/* #hangmanBlock, #rpgBlock #rpsBlock{
+    float: left;
+}
+
+#triviaBlock, #rutgersBlock {
+    float: right;
+} */
+
+.portfolio-images{
+    width: 30%;
+}
+
+.text-block {
+    position: absolute;
+    /* box-sizing: content-box;  */
+    /* font-size: 14pt; */
+    background-color: #4aaaa5bd;
+    color: white;
+    width: 30%;
+    bottom: 12px;
+    /* height: 30px; */
+}
+
+.image-text {
+    margin-left: 15px;
+}
+
+
+/* #text-block-hangman {
+    box-sizing: content-box; 
+    text-align: center;
+    font-size: 14pt;
+    background-color: #4aaaa5bd;
+    color: white;
+    width: 20%;
+    bottom: 3px;
+    height: 30px;
+} */
+
+/* 
+#text-block-rpg {
+    box-sizing: content-box; 
+    text-align: center;
+    font-size: 14pt;
+    background-color: #4aaaa5bd;
+    color: white;
+    width: 20%;
+    bottom: 3px;
+} */
 
 #hrBottomTeal {
     margin: 0;
